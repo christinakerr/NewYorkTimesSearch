@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>New York Times Search</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">New York Times Search</h1>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Search Parameters
+        </div>
+        <div class="card-body">
+            <div class="form-group row">
+                <label for="search-term" class="col-form-label">Search Term:</label>
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="search-term" placeholder="">
+                </div>
+
+                <label for="record-quantity" class="col-form-label">Number of Records to Retrieve:</label>
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="record-quantity" placeholder="">
+                </div>
+
+                <label for="start-year" class="col-form-label">Start Year (Optional):</label>
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="start-year" placeholder="">
+                </div>
+
+                <label for="end-year" class="col-form-label">End Year (Optional):</label>
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="end-year" placeholder="">
+                </div>
+            </div>
+            <div class="row">
+                <input class="btn btn-primary" type="submit" id="submit" value="Search">
+                <input class="btn btn-primary" type="reset" value="Clear">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Top Articles
+        </div>
+        <div class="card-body">
+            <!--Articles-->
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
